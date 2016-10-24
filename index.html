@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Player</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=1280, user-scalable=no">
+    </head>
+    <body>
+        <script src="./js/lib/jquery-3.1.1.min.js"></script>
+        <script src="./js/controls/App.js"></script>
+        <script src="./js/controls/Timeline.js"></script>
+        <script src="./js/controls/Layout.js"></script>
+        <script src="./js/controls/Region.js"></script>
+        <script src="./js/controls/Media.js"></script>
+        <script>
+            
+            //Initialize
+            $(function() {
+                var app = App.getInstance();
+                app.initialize();
+            });
+        </script>
+        <div id="content"></div>
+    </body>
+</html>

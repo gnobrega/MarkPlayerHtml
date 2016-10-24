@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timelines>
+    <timeline>
+        <layout width="1280" height="720">
+            <region x="0" y="0" width="1280" height="640" main="true">
+                <media file="./data/medias/sale_agenda/index.html" duration="5" />
+                <media file="./data/medias/sale_aniversariantes/index.html" duration="5" />
+                <media file="./data/medias/sale_canal_sale/index.html" duration="5" />
+                <media file="./data/medias/sale_dombosco/index.html" duration="5" />
+                <media file="./data/medias/sale_informa/index.html" duration="5" />
+                <media file="./data/medias/sale_missao/index.html" duration="5" />
+                <media file="./data/medias/sale_mural/index.html" duration="5" />
+                <media file="./data/medias/sale_noticia_foto/index.html" duration="5" />
+            </region>
+            <region x="0" y="640" width="1280" height="80">
+                <media file="./data/medias/rodape/index.html" />
+            </region>
+        </layout>
+    </timeline>
+    <audios>
+        <!--<audio file="audio/rihanna.mp3"></audio>
+        <audio file="audio/fast-car.mp3"></audio>
+        <audio file="audio/mike-posner.mp3"></audio>-->
+    </audios>
+</timelines>
